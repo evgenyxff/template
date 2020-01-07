@@ -120,7 +120,7 @@
             "name": "[parameters('forescoutName')]",
             "location": "[parameters('location')]",
             "dependsOn": [
-                "[resourceId('Microsoft.Network/networkInterfaces/', variables('ethName'))]",
+                "[resourceId('Microsoft.Network/networkInterfaces/', variables('ethName'))]"
             ],
             "plan": {
               "name": "[variables('imageSKU')]",
